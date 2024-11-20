@@ -199,7 +199,6 @@ namespace InfernumMode.Content.BehaviorOverrides.BossAIs.GreatSandShark
             NPC.DeathSound = SoundID.NPCDeath14;
             NPC.value = Item.buyPrice(6, 25, 0, 0) / 5;
             NPC.netAlways = true;
-            NPC.BossBar = ModContent.GetInstance<BereftVassalBossBar>();
 
             NPC.Calamity().ShouldCloseHPBar = true;
         }
